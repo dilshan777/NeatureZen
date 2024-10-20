@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ADD8E6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #427ef5;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}

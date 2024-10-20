@@ -1,0 +1,139 @@
+/*mail*/
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ADD8E6;
+    position: relative;
+    flex: 2;
+}
+
+/*logo*/
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+/*combine section*/
+
+.forminc {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+}
+/* Hide the form when it has the hidden class */
+.hidden {
+    display: none; /* Hides the form */
+}
+
+.formin .form {
+    width: 100%;
+    padding: 15px;
+}
+.formin .form .login {
+    transition: none;
+    translate: -400px;
+
+}
+.formin .form .register {
+    position: absolute;
+    transition: none;
+    translate: 400px;
+}
+.forminc .active {
+    height: 520px;
+}
+
+.form register .login {
+    transition: translate .18s ease;
+    translate: 0;
+
+}
+.form .active  .register .form-group {
+    transition: translate .18s ease;
+    translate: 0;
+
+}
+
+
+.formin {
+    position: relative;
+    width: 350px;
+    height: 520px;
+    background: green;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/*register form*/
+.form-group{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    margin: 15px 0;
+    
+ }
+ .h2 {
+    text-align: center;
+ }
+ .form-group input {
+    height: auto;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;/*change the size user name and pass word typing space*/
+}
+/*placeholder*/
+.form-group input::placeholder {
+    color: #fff;
+}
+/*get the icons right side*/
+.form-group .icon {
+    position: absolute;
+    right: 20px;
+    translate: 0 80%;/*get a icons middle the placeholder can chan up down right left*/
+    font-size: 16px;
+}
+.remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -6px 0 10px;/*up and down space size change*/  
+}
+.remember-forget label {
+    accent-color: #fff;
+    margin-right: 0px;   
+}
+.remember-forget a {
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forget a:hover {
+    text-decoration: underline;
+}
+
+form button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}

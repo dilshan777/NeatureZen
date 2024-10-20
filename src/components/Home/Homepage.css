@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ADD8E6;
+}
+
+.midbody {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #11c23d;
+}
+
+
+/*start button*/
+.stbtn {
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #1066d6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: 700;
+}
+.stbtn .span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.stbtn span::after{
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.stbtn:hover span {
+    padding-left: 10px;
+}
+
+.stbtn :hover span::after{
+    opacity: 1;
+    right: 0;
+  }
+.cetbtn {
+        vertical-align: middle;
+        display: inline-block;
+        border-radius: 15px;
+        background-color: #1066d6;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+        width: 220px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 10px;
+        font-weight: 700;
+    }
+    .cetbtn .span {
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    .cetbtn span::after{
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    .cetbtn:hover span {
+        padding-left: 10px;
+    }
+    
+    .cetbtn :hover span::after{
+        opacity: 1;
+        right: 0;
+      }
+
+/*pic*/
+.pic-sectionh  {
+    position: relative;
+    /*width: 100%;  Adjust width to fit beside the picture */
+    background: transparent;
+    bottom: -47px;
+    transform: rotate(8deg);
+    background-color: red;
+    right: -500px;
+    
+}
+.pich {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #427ef5;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
